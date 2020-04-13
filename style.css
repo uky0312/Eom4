@@ -1,0 +1,53 @@
+#red{
+  color:red;
+}
+#grid{
+  display:grid;
+  grid-template-columns: 170px 1fr;
+}
+  #grid ol{
+  border-right: 1px solid gray;
+  width:120px;
+  margin:0;
+  padding:20px;
+  padding-left: 32px;
+}
+#B{
+  padding-left: 30px;
+}
+#comment{
+  border-top: 1px solid gray;
+}
+.saw{
+  color:black;
+  text-decoration: none;
+}
+body{
+  margin:0;
+}
+h1{
+  font-size:45px;
+  text-align:center;
+  border-bottom:1px solid gray;
+  margin:0;
+  padding:20px;
+}
+@media(max-width:800px){
+  #grid{
+    display:block;
+  }
+  #grid ol{
+    border-right:none;
+  }
+  h1{
+    border-bottom:none;
+  }
+  img {
+    width:100%;
+    max-width:600px;
+  }
+  iframe {
+    width:100%;
+    max-width:560px;
+  }
+}
